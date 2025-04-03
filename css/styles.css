@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+:root{
+    --bg-body-color:#E8E8E8;
+    --bg-color-header-clint: #FFE500;
+    --text-color: #636363;
+    --bg-color-card: #fff;
+    --border-color:#D9D9D9;
+    --price-color:#0CAF1D;
+    --bg-category:#636363;
+    --category-text: #fff;
+    --bg-btnblue: #3483FA;
+    --text-btnblue:#fff;
+    --bg-btnwhite: #fff;
+    --text-btnwhite:#3483FA;
+    --border-btnwhite:#3483FA;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: unset;
+}
+
+html, body{
+    background-color: var(--bg-body-color);
+    
+}
+
+
+header{
+    background-color: var(--bg-color-header-clint);
+    height: 70px;
+    display: flex;
+    align-items: center;
+   
+
+}
+
+nav{
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#product-details{
+    padding: 20px 0;
+}
+
+.card{
+    background-color: var(--bg-color-card);
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+}
+
+.card-top{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--border-color)
+
+}
+
+.card-top img{
+    width: 220px;
+    
+}
+
+.card-bottom{
+    padding: 10px 20px 20px 20px;
+}
+
+.card-bottom h3{
+    color: var(--price-color);
+}
+
+.card-bottom h4{
+    color: var(--text-color);
+    font-size: 12px;
+}
+
+.card-bottom p{
+    color: var(--text-color);
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.category-container{
+    display: flex;
+}
+
+.category {
+    background-color: var(--bg-category);
+    border-radius: 4px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--category-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.btn-page-container{
+    width: 220px;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.btn{
+    border-radius: 4px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-blue {
+    background-color: var(--bg-btnblue);
+    color: var(--text-btnblue);
+}
+
+.btn-white {
+    background-color: var(--bg-btnwhite);
+    color: var(--text-btnwhite);
+    border: 1px solid var(--border-btnwhite);
+}
+
+
+.mb20{
+    margin-bottom: 20px;
+}
