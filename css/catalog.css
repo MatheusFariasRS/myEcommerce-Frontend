@@ -2,3 +2,33 @@
     padding: 20px 0;
 }
 
+.myE-catalog-cards{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+}
+
+.myE-catalog-card-top{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.myE-catalog-card-top img{
+    width: 150px;
+}
+
+.myE-catalog-card-bottom{
+    padding: 10px 20px;
+    min-height: 110px;
+}
+
+.myE-catalog-card-bottom h3{
+    color: var(--dsc-color-font-secondary);
+    font-size: 20px;
+}
+
+.myE-catalog-card-bottom h4{
+    color: var(--dsc-color-font-primary);
+    font-size: 12px;
+}
