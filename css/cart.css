@@ -9,7 +9,7 @@
 .myE-cart-total-container h3 {
     text-align: left;
     font-size: 16px;
-    color: var(--dsc-color-font-secondary);
+    color: var(--myE-color-font-secondary);
 }
 
 .myE-cart-item-container {
@@ -38,12 +38,12 @@
     padding-bottom: 10px;
     font-size: 12px;
     font-weight: 700;
-    color: var(--dsc-color-font-secondary);
+    color: var(--myE-color-font-secondary);
 }
 
 .myE-cart-item-description {
     padding: 10px 0;
-    color: var(--dsc-color-font-primary);
+    color: var(--myE-color-font-primary);
 }
 
 .myE-cart-item-description h3 {
@@ -51,7 +51,7 @@
 }
 
 .myE-cart-item-quantity-btn {
-    color: var(--dsc-color-btn-primary);
+    color: var(--myE-color-btn-primary);
     cursor: pointer;
 }
 

@@ -17,17 +17,17 @@
 }
 
 .myE-product-details-bottom h3 {
-  color: var(--dsc-color-font-secondary);
+  color: var(--myE-color-font-secondary);
   font-size: 20px;
 }
 
 .myE-product-details-bottom h4 {
-  color: var(--dsc-color-font-primary);
+  color: var(--myE-color-font-primary);
   font-size: 12px;
 }
 
 .myE-product-details-bottom p {
-  color: var(--dsc-color-font-primary);
+  color: var(--myE-color-font-primary);
   font-size: 12px;
   margin: 10px 0;
 }
@@ -41,12 +41,12 @@
   padding: 0 20px;
   margin-right: 20px;
   margin-bottom: 10px;
-  background-color: var(--dsc-color-bg-tertiary);
+  background-color: var(--myE-color-bg-tertiary);
   border-radius: 4px;
   height: 30px;
   font-size: 12px;
   font-weight: 700;
-  color: var(--dsc-color-font-tertiary);
+  color: var(--myE-color-font-tertiary);
   display: flex;
   justify-content: center;
   align-items: center;

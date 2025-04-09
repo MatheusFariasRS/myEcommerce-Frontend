@@ -24,11 +24,11 @@
 }
 
 .myE-catalog-card-bottom h3{
-    color: var(--dsc-color-font-secondary);
+    color: var(--myE-color-font-secondary);
     font-size: 20px;
 }
 
 .myE-catalog-card-bottom h4{
-    color: var(--dsc-color-font-primary);
+    color: var(--myE-color-font-primary);
     font-size: 12px;
 }
