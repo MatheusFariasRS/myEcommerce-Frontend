@@ -3,6 +3,7 @@
 @import "cart.css";
 @import "catalog.css";
 @import "login.css";
+@import "confirmation.css";
 
 :root {
   --myE-color-bg-primary: #e8e8e8;
@@ -84,6 +85,16 @@ nav h1 {
 nav a {
   font-size: 14px;
   font-weight: 700;
+}
+
+.myE-logged-user{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.myE-logged-user p{
+  font-size: 12px;
 }
 
 /* --------------------------------------------------------------- */
