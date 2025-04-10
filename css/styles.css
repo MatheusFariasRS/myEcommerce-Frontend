@@ -5,6 +5,7 @@
 @import "login.css";
 @import "confirmation.css";
 @import "product-form.css";
+@import "product-listing.css";
 
 :root {
   --myE-color-bg-primary: #e8e8e8;
@@ -60,6 +61,16 @@ main{
 
 .myE-mb20 {
   margin-bottom: 20px;
+}
+
+.myE-section-title{
+  text-align: center;
+  color: var(--myE-color-font-primary);
+  font-size: 16px;
+}
+
+.myE-txt-left{
+  text-align: left;
 }
 
 /* --------------------------------------------------------------- */
@@ -281,4 +292,33 @@ nav a {
   .myE-form h2{
     font-size: 24px;
   }
+}
+
+/* --------------------------------------------------------------- */
+/* table styles */
+
+.myE-table{
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+
+}
+
+.myE-table thead{
+  height: 55px;
+  font-size: 14px;
+  background-color: var(--myE-color-card-bg);
+  color: var(--myE-color-font-primary);
+}
+
+.myE-table tbody{
+  text-align: center;
+  font-size: 12px;
+  background-color: var(--myE-color-card-bg);
+  color: var(--myE-color-font-primary);
+}
+
+.myE-table tbody tr{
+  height: 70px;
+  border-top: 1px solid var(--myE-color-card-border);
 }

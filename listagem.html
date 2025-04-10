@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myEcommerce</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="myE-container">
+          <h1>myEcommerce</h1>
+          <a href="#">Entrar</a>
+        </nav>
+      </header>
+      <main>
+        <section id="product-listing-section" class="myE-container">
+          <h2 class="myE-section-title myE-mb20">Cadastro de produtos</h2>
+          <div class="myE-btn-container">
+            <div class="myE-btn myE-btn-white myE-mb20">
+              Novo
+            </div>
+        </div>
+          <form class="myE-search-bar">
+            <button type="submit">🔎︎</button>
+            <input type="text" placeholder="Nome do produto"/>
+            <button type="reset">🗙</button>
+          </form>
+
+          <table class="myE-table myE-mt20 myE-mb20">
+            <thead>
+              <th>ID</th>
+              <th></th>
+              <th>Preço</th>
+              <th class="myE-txt-left">Nome</th>
+              <th></th>
+              <th></th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>341</td>
+                <td><img class="myE-product-listing-image" src="images/computer.png" alt="Computer"></td>
+                <td>R$ 5000,00</td>
+                <td class="myE-txt-left">Computador Gamer XT Plus Ultra</td>
+                <td><img class="myE-product-listing-btn" src="images/edit.svg" alt="Editar"></td>
+                <td><img class="myE-product-listing-btn" src="images/delete.svg" alt="Deletar"></td>
+              </tr>
+              <tr>
+                <td>341</td>
+                <td><img class="myE-product-listing-image" src="images/computer.png" alt="Computer"></td>
+                <td>R$ 5000,00</td>
+                <td class="myE-txt-left">Computador Gamer XT Plus Ultra</td>
+                <td><img class="myE-product-listing-btn" src="images/edit.svg" alt="Editar"></td>
+                <td><img class="myE-product-listing-btn" src="images/delete.svg" alt="Deletar"></td>
+              </tr>
+              <tr>
+                <td>341</td>
+                <td><img class="myE-product-listing-image" src="images/computer.png" alt="Computer"></td>
+                <td>R$ 5000,00</td>
+                <td class="myE-txt-left">Computador Gamer XT Plus Ultra</td>
+                <td><img class="myE-product-listing-btn" src="images/edit.svg" alt="Editar"></td>
+                <td><img class="myE-product-listing-btn" src="images/delete.svg" alt="Deletar"></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="myE-btn-next-page">
+            Carregar mais
+          </div>
+        </section>
+    </main>
+</body>
+
+</html>

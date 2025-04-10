@@ -1,0 +1,14 @@
+#product-listing-section {
+    padding: 20px 0;
+}
+
+.myE-product-listing-image{
+    width: 69px;
+}
+
+.myE-product-listing-btn{
+    height: 20px;
+    width: auto;
+    cursor: pointer;
+    margin: 5px;
+}
