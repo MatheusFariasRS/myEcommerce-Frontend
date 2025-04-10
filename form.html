@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myEcommerce</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="myE-container">
+          <h1>myEcommerce</h1>
+          <div class="myE-logged-user">
+            <p>Maria Silva</p>
+            <a href="#">Sair</a>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section id="product-form-section" class="myE-container">
+          <div class="myE-product-form-container">
+            <form class="myE-card myE-form">
+              <h2>Dados do produto</h2>
+              <div class="myE-form-controls-container">
+                <div>
+                  <input class="myE-form-control" type="text" placeholder="Nome">
+                </div>
+                <div>
+                  <input class="myE-form-control" type="text" placeholder="Preço">
+                </div>
+                <div>
+                  <input class="myE-form-control" type="text" placeholder="Imagem">
+                </div>
+                <div>
+                  <select class="myE-form-control myE-select" required>
+                    <option value="" disabled selected>Categorias</option>
+                    <option value="1">Valor 1</option>
+                    <option value="2">Valor 2</option>
+                  </select>
+                </div>
+                <div>
+                  <textarea class="myE-form-control myE-textarea" placeholder="Descrição"></textarea>
+                </div>
+              </div>
+              <div class="myE-product-form-buttons">
+                <button type="reset" class="myE-btn myE-btn-white">Cancelar</button>
+                <button type="submit" class="myE-btn myE-btn-blue">Salvar</button>
+              </div>
+            </form>
+          </div>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -4,6 +4,7 @@
 @import "catalog.css";
 @import "login.css";
 @import "confirmation.css";
+@import "product-form.css";
 
 :root {
   --myE-color-bg-primary: #e8e8e8;
@@ -256,6 +257,24 @@ nav a {
   color: var(--myE-color-error);
   font-size: 12px;
   padding-left: 4px;
+}
+
+.myE-select:invalid{
+  color: var(--myE-color-font-placeholder);
+}
+
+.myE-select option[disabled]{
+  display: none;
+}
+
+.myE-select option{
+  color: var(--myE-color-font-primary);
+}
+
+.myE-textarea{
+  resize: none;
+  height: 128px;
+  padding-top: 10px;
 }
 
 @media(min-width: 576px){
