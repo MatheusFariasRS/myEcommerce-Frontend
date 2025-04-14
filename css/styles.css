@@ -73,6 +73,13 @@ main{
   text-align: left;
 }
 
+@media(min-width: 576px){
+  .myE-section-title{
+    text-align: left;
+    font-size: 24px;
+  }
+}
+
 /* --------------------------------------------------------------- */
 /* header styles */
 header {
@@ -321,4 +328,60 @@ nav a {
 .myE-table tbody tr{
   height: 70px;
   border-top: 1px solid var(--myE-color-card-border);
+}
+
+.myE-table th:nth-child(2){
+  border-top-left-radius: 10px;
+}
+
+.myE-table th:last-child{
+  border-top-right-radius: 10px;
+}
+
+.myE-table td:nth-child(2){
+  padding-left: 10px;
+}
+
+.myE-table td:last-child{
+  padding-right: 5px;
+}
+
+.myE-tb576{
+  display: none;
+}
+
+.myE-tb768{
+  display: none;
+}
+
+@media(min-width: 576px) {
+  .myE-tb576{
+    display: table-cell;
+  }
+  .myE-table th:nth-child(1){
+    padding-left: 20px;
+    border-top-left-radius: 10px;
+  }
+  .myE-table th:nth-child(2){
+    border-top-left-radius: 0;
+  }
+  .myE-table td:nth-child(1){
+    padding-left: 20px;
+  }
+  .myE-table td:nth-child(2){
+    padding-left: 0;
+  }
+  
+}
+
+@media(min-width: 768px) {
+  .myE-tb768{
+    display: table-cell;
+  }
+}
+
+@media(min-width: 992px) {
+  .myE-table tbody{
+    font-size: 16px;
+  }
 }
