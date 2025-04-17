@@ -6,11 +6,13 @@
 @import "confirmation.css";
 @import "product-form.css";
 @import "product-listing.css";
+@import "admin-home.css";
 
 :root {
   --myE-color-bg-primary: #e8e8e8;
   --myE-color-bg-secondary: #ffe500;
   --myE-color-bg-tertiary: #636363;
+  --myE-color-bg-quaternary: #0caf1d;
 
   --myE-color-card-bg: #fff;
   --myE-color-card-border: #d9d9d9;
@@ -90,19 +92,60 @@ header {
   padding: 0 20px;
 }
 
-nav {
+.myE-header-client{
+  background-color: var(--myE-color-bg-secondary);
   color: var(--myE-color-font-primary);
+}
+
+.myE-header-admin{
+  background-color: var(--myE-color-bg-quaternary);
+  color: var(--myE-color-font-tertiary)
+}
+
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 nav h1 {
-  font-size: 24px;
+  font-size: 16px;
 }
 
 nav a {
   font-size: 14px;
+  font-weight: 700;
+}
+
+.myE-navbar-right{
+  display: flex;
+  align-items: center;
+  
+}
+
+.myE-menu-items-container{
+  display: flex;
+}
+
+.myE-menu-items-container img{
+  width: 20px;
+  height: 20px;
+}
+
+.myE-menu-item{
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+
+}
+
+.myE-menu-item p{
+  display: none;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.myE-menu-item-active{
   font-weight: 700;
 }
 
@@ -114,6 +157,15 @@ nav a {
 
 .myE-logged-user p{
   font-size: 12px;
+}
+
+@media(min-width: 576px){
+  nav h1 {
+    font-size: 24px;
+  }
+  .myE-menu-item p{
+    display: unset;
+  }
 }
 
 /* --------------------------------------------------------------- */
